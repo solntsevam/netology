@@ -1,0 +1,54 @@
+Month = input('Введите месяц: ')
+DayStr = input('Введите день: ')
+Day = int(DayStr)
+    
+if (Month.upper() == 'ЯНВАРЬ') and (Day < 21):
+    print('Козерог')
+elif Month.upper() == 'ЯНВАРЬ' and (Day <= 31):
+    print('Водолей')
+elif Month.upper() == 'ФЕВРАЛЬ' and Day < 19:
+    print('Водолей')
+elif Month.upper() == 'ФЕВРАЛЬ' and Day <= 29:
+    print('Рыбы')
+elif Month.upper() == 'МАРТ' and Day < 21:
+    print('Рыбы')
+elif Month.upper() == 'МАРТ' and Day <= 31:
+    print('Овен')
+elif Month.upper() == 'АПРЕЛЬ' and Day < 21:
+    print('Овен')
+elif Month.upper() == 'АПРЕЛЬ' and Day <= 30:
+    print('Телец')
+elif Month.upper() == 'МАЙ' and Day < 22:
+    print('Телец')
+elif Month.upper() == 'МАЙ' and Day <= 31:
+    print('Близнецы')
+elif Month.upper() == 'ИЮНЬ' and Day < 22:
+    print('Близнецы')
+elif Month.upper() == 'ИЮНЬ' and Day <= 30:
+    print('Рак')
+elif Month.upper() == 'ИЮЛЬ' and Day < 23:
+    print('Рак')
+elif Month.upper() == 'ИЮЛЬ' and Day <= 31:
+    print('Лев')
+elif Month.upper() == 'АВГУСТ' and Day < 24:
+    print('Лев')
+elif Month.upper() == 'АВГУСТ' and Day <= 31:
+    print('Дева')
+elif Month.upper() == 'СЕНТЯБРЬ' and Day < 24:
+    print('Дева')
+elif Month.upper() == 'СЕНТЯБРЬ' and Day <= 30:
+    print('Весы')
+elif Month.upper() == 'ОКТЯБРЬ' and Day < 24:
+    print('Весы')
+elif Month.upper() == 'ОКТЯБРЬ' and Day <= 31:
+    print('Скорпион')
+elif Month.upper() == 'НОЯБРЬ' and Day < 23:
+    print('Скорпион')
+elif Month.upper() == 'НОЯБРЬ' and Day <= 30:
+    print('Стрелец')
+elif Month.upper() == 'ДЕКАБРЬ' and Day < 23:
+    print('Стрелец')
+elif Month.upper() == 'ДЕКАБРЬ' and Day <= 31:
+    print('Козерог')
+else:
+    print('Проверьте правильность ввода данных')

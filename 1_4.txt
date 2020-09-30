@@ -1,0 +1,13 @@
+number = 123501
+number = str (number)
+
+number_1 = int(number[0])
+number_2 = int(number[1])
+number_3 = int(number[2])
+number_4 = int(number[3])
+number_5 = int(number[4])
+number_6 = int(number[5])
+if (number_1+number_2+number_3) == (number_4+number_5+number_6):
+    print ('Счастливый билет')
+else:
+    print ('Несчастливый билет')

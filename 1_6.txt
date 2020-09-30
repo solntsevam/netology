@@ -1,0 +1,21 @@
+import math
+
+FigureType = input('Введите тип фигуры (круг, треугольник,прямоугольник):')
+if FigureType.upper() == 'КРУГ': 
+    R = int(input('Введите радиус: '))
+    S = math.pi*R*R
+    print('Площадь круга: '+ str(S))
+elif FigureType.upper() == 'ТРЕУГОЛЬНИК':
+    A= int(input('Введите длину стороны А: '))
+    B= int(input('Введите длину стороны B: '))
+    C= int(input('Введите длину стороны C: '))
+    p = (A+B+C)/2
+    S = math.sqrt(p*(p-A)*(p-B)*(p-C))
+    print('Площадь треугольника: '+ str(S))
+elif FigureType.upper() == 'ПРЯМОУГОЛЬНИК':
+    A= int(input('Введите длину стороны А: '))
+    B= int(input('Введите длину стороны B: '))
+    S = A*B
+    print('Площадь прямоугольника: '+ str(S))    
+else:
+    print('Не удалось определить тип фигуры')
