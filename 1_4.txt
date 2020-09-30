@@ -1,4 +1,4 @@
-number = 123501
+п»їnumber = 123501
 number = str (number)
 
 number_1 = int(number[0])
@@ -8,6 +8,6 @@ number_4 = int(number[3])
 number_5 = int(number[4])
 number_6 = int(number[5])
 if (number_1+number_2+number_3) == (number_4+number_5+number_6):
-    print ('Счастливый билет')
+    print ('РЎС‡Р°СЃС‚Р»РёРІС‹Р№ Р±РёР»РµС‚')
 else:
-    print ('Несчастливый билет')
+    print ('РќРµСЃС‡Р°СЃС‚Р»РёРІС‹Р№ Р±РёР»РµС‚')

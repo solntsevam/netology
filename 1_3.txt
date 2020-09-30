@@ -1,54 +1,54 @@
-Month = input('Введите месяц: ')
-DayStr = input('Введите день: ')
+п»їMonth = input('Р’РІРµРґРёС‚Рµ РјРµСЃСЏС†: ')
+DayStr = input('Р’РІРµРґРёС‚Рµ РґРµРЅСЊ: ')
 Day = int(DayStr)
     
-if (Month.upper() == 'ЯНВАРЬ') and (Day < 21):
-    print('Козерог')
-elif Month.upper() == 'ЯНВАРЬ' and (Day <= 31):
-    print('Водолей')
-elif Month.upper() == 'ФЕВРАЛЬ' and Day < 19:
-    print('Водолей')
-elif Month.upper() == 'ФЕВРАЛЬ' and Day <= 29:
-    print('Рыбы')
-elif Month.upper() == 'МАРТ' and Day < 21:
-    print('Рыбы')
-elif Month.upper() == 'МАРТ' and Day <= 31:
-    print('Овен')
-elif Month.upper() == 'АПРЕЛЬ' and Day < 21:
-    print('Овен')
-elif Month.upper() == 'АПРЕЛЬ' and Day <= 30:
-    print('Телец')
-elif Month.upper() == 'МАЙ' and Day < 22:
-    print('Телец')
-elif Month.upper() == 'МАЙ' and Day <= 31:
-    print('Близнецы')
-elif Month.upper() == 'ИЮНЬ' and Day < 22:
-    print('Близнецы')
-elif Month.upper() == 'ИЮНЬ' and Day <= 30:
-    print('Рак')
-elif Month.upper() == 'ИЮЛЬ' and Day < 23:
-    print('Рак')
-elif Month.upper() == 'ИЮЛЬ' and Day <= 31:
-    print('Лев')
-elif Month.upper() == 'АВГУСТ' and Day < 24:
-    print('Лев')
-elif Month.upper() == 'АВГУСТ' and Day <= 31:
-    print('Дева')
-elif Month.upper() == 'СЕНТЯБРЬ' and Day < 24:
-    print('Дева')
-elif Month.upper() == 'СЕНТЯБРЬ' and Day <= 30:
-    print('Весы')
-elif Month.upper() == 'ОКТЯБРЬ' and Day < 24:
-    print('Весы')
-elif Month.upper() == 'ОКТЯБРЬ' and Day <= 31:
-    print('Скорпион')
-elif Month.upper() == 'НОЯБРЬ' and Day < 23:
-    print('Скорпион')
-elif Month.upper() == 'НОЯБРЬ' and Day <= 30:
-    print('Стрелец')
-elif Month.upper() == 'ДЕКАБРЬ' and Day < 23:
-    print('Стрелец')
-elif Month.upper() == 'ДЕКАБРЬ' and Day <= 31:
-    print('Козерог')
+if (Month.upper() == 'РЇРќР’РђР Р¬') and (Day < 21):
+    print('РљРѕР·РµСЂРѕРі')
+elif Month.upper() == 'РЇРќР’РђР Р¬' and (Day <= 31):
+    print('Р’РѕРґРѕР»РµР№')
+elif Month.upper() == 'Р¤Р•Р’Р РђР›Р¬' and Day < 19:
+    print('Р’РѕРґРѕР»РµР№')
+elif Month.upper() == 'Р¤Р•Р’Р РђР›Р¬' and Day <= 29:
+    print('Р С‹Р±С‹')
+elif Month.upper() == 'РњРђР Рў' and Day < 21:
+    print('Р С‹Р±С‹')
+elif Month.upper() == 'РњРђР Рў' and Day <= 31:
+    print('РћРІРµРЅ')
+elif Month.upper() == 'РђРџР Р•Р›Р¬' and Day < 21:
+    print('РћРІРµРЅ')
+elif Month.upper() == 'РђРџР Р•Р›Р¬' and Day <= 30:
+    print('РўРµР»РµС†')
+elif Month.upper() == 'РњРђР™' and Day < 22:
+    print('РўРµР»РµС†')
+elif Month.upper() == 'РњРђР™' and Day <= 31:
+    print('Р‘Р»РёР·РЅРµС†С‹')
+elif Month.upper() == 'РР®РќР¬' and Day < 22:
+    print('Р‘Р»РёР·РЅРµС†С‹')
+elif Month.upper() == 'РР®РќР¬' and Day <= 30:
+    print('Р Р°Рє')
+elif Month.upper() == 'РР®Р›Р¬' and Day < 23:
+    print('Р Р°Рє')
+elif Month.upper() == 'РР®Р›Р¬' and Day <= 31:
+    print('Р›РµРІ')
+elif Month.upper() == 'РђР’Р“РЈРЎРў' and Day < 24:
+    print('Р›РµРІ')
+elif Month.upper() == 'РђР’Р“РЈРЎРў' and Day <= 31:
+    print('Р”РµРІР°')
+elif Month.upper() == 'РЎР•РќРўРЇР‘Р Р¬' and Day < 24:
+    print('Р”РµРІР°')
+elif Month.upper() == 'РЎР•РќРўРЇР‘Р Р¬' and Day <= 30:
+    print('Р’РµСЃС‹')
+elif Month.upper() == 'РћРљРўРЇР‘Р Р¬' and Day < 24:
+    print('Р’РµСЃС‹')
+elif Month.upper() == 'РћРљРўРЇР‘Р Р¬' and Day <= 31:
+    print('РЎРєРѕСЂРїРёРѕРЅ')
+elif Month.upper() == 'РќРћРЇР‘Р Р¬' and Day < 23:
+    print('РЎРєРѕСЂРїРёРѕРЅ')
+elif Month.upper() == 'РќРћРЇР‘Р Р¬' and Day <= 30:
+    print('РЎС‚СЂРµР»РµС†')
+elif Month.upper() == 'Р”Р•РљРђР‘Р Р¬' and Day < 23:
+    print('РЎС‚СЂРµР»РµС†')
+elif Month.upper() == 'Р”Р•РљРђР‘Р Р¬' and Day <= 31:
+    print('РљРѕР·РµСЂРѕРі')
 else:
-    print('Проверьте правильность ввода данных')
+    print('РџСЂРѕРІРµСЂСЊС‚Рµ РїСЂР°РІРёР»СЊРЅРѕСЃС‚СЊ РІРІРѕРґР° РґР°РЅРЅС‹С…')

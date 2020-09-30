@@ -1,11 +1,11 @@
-width = 10
+п»їwidth = 10
 length = 205
 height = 5
 if width<15 and length<15 and height<15:
-    print('Коробка №1')
+    print('РљРѕСЂРѕР±РєР° в„–1')
 elif width<50 and length<50 and height<50:
-    print('Коробка №2')
+    print('РљРѕСЂРѕР±РєР° в„–2')
 elif length>200:
-    print('Упаковка для лыж')
+    print('РЈРїР°РєРѕРІРєР° РґР»СЏ Р»С‹Р¶')
 else:
-    print('Стандартная коробка №3') 
+    print('РЎС‚Р°РЅРґР°СЂС‚РЅР°СЏ РєРѕСЂРѕР±РєР° в„–3') 
