@@ -1,6 +1,0 @@
-Sum = 0
-Num = -1
-while Num != 0:
-    Num = float(input('Введите число: '))
-    Sum = Sum + Num
-print(f'Сумма введенных чисел равна {Sum}')

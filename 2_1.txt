@@ -1,9 +1,0 @@
-word = 'test'
-if len(word)%2==0:
-    middle = int(len(word)/2)
-    print(middle)
-    print(word[middle-1:middle+1])
-else:
-    middle = int(len(word)/2)
-    print(middle)
-    print(word[middle:middle+1])
